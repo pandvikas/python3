@@ -1,3 +1,3 @@
 import requests
-x = requests.get('https://api.ipify.org')
+x = requests.get('google.com')
 print(x)
