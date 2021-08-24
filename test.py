@@ -16,7 +16,7 @@ while ip < 100:
         print(' địa chỉ ip là : ', IP)
         ip = 100
 
-driver = webdriver.Chrome('./chromedriver')
+driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://www.facebook.com/')
 # nhập user pass và click
 userID = '100070863217471'
